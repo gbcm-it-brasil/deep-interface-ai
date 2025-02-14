@@ -7,12 +7,10 @@ export default function Home() {
    
    <>
    <div className="container mx-auto flex flex-col items-center justify-center h-screen">
-    <span className="text-xl font-sans font-light">Bem-vindo ao Deep Interface AI</span> 
-    <span className="text-xl font-sans font-light">ou para os mais intimos 🙂</span> 
-   <Image className="my-8" src="home/logo.png" alt="logo" width={270} height={250} />
+   <Image className="my-8" src="home/logo.png" alt="logo" width={150} height={100} />
     <section className="py-20 text-center">
-          <h2 className="text-4xl font-bold mb-8 text-metallic-blue-100">Junte-se ao Desenvolvimento</h2>
-          <p className="text-xl text-metallic-blue-300 mb-12 max-w-2xl mx-auto">
+          <h2 className="text-4xl font-bold mb-8 text-metallic-blue-400">Junte-se ao Desenvolvimento</h2>
+          <p className="text-xl text-metallic-blue-500 mb-12 max-w-2xl mx-auto">
             O Deep Interface AI está em fase inicial de desenvolvimento e estamos buscando colaboradores entusiastas.
             Sua experiência e ideias podem moldar o futuro desta plataforma inovadora.
           </p>
